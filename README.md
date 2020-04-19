@@ -12,6 +12,7 @@ run ./run_scraple.php
 
 NOTE: be sure to delete data/.lock and data/tasks.bin (if you want to clear out the tasks) between runs
 
+Proxies: http://www.freeproxylists.net/
 
 # Scraple: PHP + MySQL multithreaded scraper
 
