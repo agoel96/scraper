@@ -81,11 +81,12 @@ function set_filedir_app_curl_opts(&$ch)
 function get_proxy_mesh_ip()
 {
 	$proxies = array(
-		"167.71.204.24:44344",
+		"166.98.140.50:8080",
+		"165.22.98.206:44344"
 				);
 
-	return "166.98.140.50:8080";
-	//return $proxies[rand(0, count($proxies) - 1)];
+	//return "66.98.140.50:8080";
+	return $proxies[rand(0, count($proxies) - 1)];
 
 }
 
