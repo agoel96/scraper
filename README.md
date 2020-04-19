@@ -1,3 +1,14 @@
+# ABHI Notes
+
+see config.php for setting num worker and delay
+configure curl options and proxy in config_curl_opts.php file (if necessary, create own function)
+configure callback in callback.php for what to do with returned data (i.e. store in log file)
+create tasks to queue up for cron in scraple.php and set params for curl options function and callback function configured above
+run ./run_scraple.php
+
+NOTE: be sure to delete data/.lock and data/tasks.bin (if you want to clear out the tasks) between runs
+
+
 # Scraple: PHP + MySQL multithreaded scraper
 
 ## Installation
