@@ -20,7 +20,7 @@ function main()
 
 	if(!has_next_task($tasks))
 	{
-		for($i=350000000;$i<450000000; $i+=1000) {
+		for($i=313000000;$i<450000000; $i+=1000) {
 			$id=str_pad(rand($i, $i+999),11,"0",STR_PAD_LEFT);
 			$x="https://www.jabra.com/services/servicenet/publicwarrantycheckerservice.svc/checkwarranty/".$id;
 			add_task(array(

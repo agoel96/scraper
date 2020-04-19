@@ -13,8 +13,8 @@ function Config($key)
 		'DB_ENCODING' 	=> 'utf8',
 
 		/* number of threads and delay between requests */
-		'NUM_WORKERS' 				=> 90,
-		'AFTER_REQUEST_DELAY_MS' 	=> 500,
+		'NUM_WORKERS' 				=> 150,
+		'AFTER_REQUEST_DELAY_MS' 	=> 400,
 
 		/* system related settings */
 		'VERBOSE'						=> true,
